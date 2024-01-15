@@ -21,8 +21,8 @@ class QuestionWidget extends StatelessWidget {
         fontSize: 20.0, // Define the font size as 20.0
         fontWeight: FontWeight.bold, // Define the font weight as bold
         fontStyle: FontStyle.italic, // Define the font style as italic
-        color: Colors.blue, // Define the text color as blue
-        decoration: TextDecoration.underline, // Define the text decoration as underline
+        color: Color.fromARGB(255, 168, 184, 197), // Define the text color as blue
+        // decoration: TextDecoration.underline, // Define the text decoration as underline
         decorationColor: const Color.fromARGB(255, 86, 86, 86) // Define the text decoration color as red
       ),
       ),

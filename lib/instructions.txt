@@ -1,0 +1,10 @@
+now before going to ui design , first let's make some constans variables 
+-- create a separate file
+
+-- let's start homepage
+
+-let's start work on ui
+-change the background color and the appbar first 
+- import the constans.dart in our homepage ( because it has our color)
+
+-I'm going to next question
