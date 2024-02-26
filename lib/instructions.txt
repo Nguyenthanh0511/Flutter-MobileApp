@@ -8,3 +8,5 @@ now before going to ui design , first let's make some constans variables
 - import the constans.dart in our homepage ( because it has our color)
 
 -I'm going to next question
+
+- I edited in the home_sreen.dart 

@@ -17,7 +17,7 @@ Widget build(BuildContext context){
       //   fit: BoxFit.cover,
       // ),
       border: Border.all(
-        width: 8,
+        width: 8,   
       ),
       borderRadius: BorderRadius.circular(12),
       ),

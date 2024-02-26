@@ -8,9 +8,9 @@ class QuestionWidget extends StatelessWidget {
       required this.totalQuestions // Define a required parameter for the totalQuestions
   }) : super(key: key); // Define the superclass as StatelessWidget
 
-  final String question; // Define a String variable for the question
-  final int indexAction; // Define an int variable for the indexAction
-  final int totalQuestions; // Define an int variable for the totalQuestions
+  final String question; // Define a String variable for the question // Câu hỏi
+  final int indexAction; // Define an int variable for the indexAction // Số dòng của hành động câu hỏi
+  final int totalQuestions; // Define an int variable for the totalQuestions // Số tổng câu hỏi
 
   @override
   Widget build(BuildContext context) { // Define a build method for the widget
@@ -19,7 +19,7 @@ class QuestionWidget extends StatelessWidget {
       child: Text('Question ${indexAction + 1}/$totalQuestions: $question', // Define a Text widget with the question and its index
       style: TextStyle(
         fontSize: 20.0, // Define the font size as 20.0
-        fontWeight: FontWeight.bold, // Define the font weight as bold
+        fontWeight: FontWeight.bold, // Define the font weight as bold  
         fontStyle: FontStyle.italic, // Define the font style as italic
         color: Color.fromARGB(255, 168, 184, 197), // Define the text color as blue
         // decoration: TextDecoration.underline, // Define the text decoration as underline
